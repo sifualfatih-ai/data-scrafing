@@ -72,7 +72,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onSuccess
               <ShieldCheck className="w-4 h-4 text-white" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-wider text-blue-100">
-              NAFSFlow Cloud Account
+              Data Scrafing Cloud Account
             </span>
           </div>
           <h3 className="text-xl font-bold tracking-tight">

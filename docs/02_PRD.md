@@ -1,5 +1,5 @@
 # PRODUCT REQUIREMENTS DOCUMENT (PRD)
-## Project: NAFSFLOW – B2B Local Business Lead Intelligence Platform
+## Project: DATA SCRAFING – B2B Local Business Lead Intelligence Platform
 **Document Version:** 2.0.0 (SaaS Edition)  
 **Target Platform:** Web Application (Responsive Desktop & Tablet)  
 **Status:** Production Ready  
@@ -8,7 +8,7 @@
 
 ## 1. Ringkasan Eksekutif (Executive Summary)
 
-**NAFSFlow** adalah platform SaaS intelijen prospek bisnis B2B (*B2B Lead Intelligence & Outreach CRM*) yang dirancang khusus untuk agensi pembuatan website, konsultan digital marketing, dan freelance web developer guna menemukan bisnis lokal yang **belum memiliki website resmi**, **hanya menggunakan media sosial**, atau **memiliki website dengan domain mati (404/DNS error)**.
+**Data Scrafing** adalah platform SaaS intelijen prospek bisnis B2B (*B2B Lead Intelligence & Outreach CRM*) yang dirancang khusus untuk agensi pembuatan website, konsultan digital marketing, dan freelance web developer guna menemukan bisnis lokal yang **belum memiliki website resmi**, **hanya menggunakan media sosial**, atau **memiliki website dengan domain mati (404/DNS error)**.
 
 Platform ini mengintegrasikan AI Gateway (TeamoRouter API) dengan 51+ model AI, audit status HTTP domain secara live, Google Cloud Firestore dengan autentikasi multi-tenant, serta corong analitik omset agensi (*revenue pipeline tracking*).
 

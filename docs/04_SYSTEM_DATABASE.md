@@ -1,5 +1,5 @@
 # SISTEM DATABASE & AUTENTIKASI CLOUD
-## Google Cloud Firestore & Firebase Auth – NAFSFlow SaaS
+## Google Cloud Firestore & Firebase Auth – Data Scrafing SaaS
 
 Dokumen ini menjelaskan struktur database NoSQL, mekanisme autentikasi multi-tenant, kamus data (*data dictionary*), aturan keamanan (*Firestore Security Rules*), serta mekanisme sinkronisasi data prospek.
 
@@ -7,11 +7,11 @@ Dokumen ini menjelaskan struktur database NoSQL, mekanisme autentikasi multi-ten
 
 ## 1. Ikhtisar Arsitektur Database & Autentikasi
 
-Platform NAFSFlow menggunakan **Google Cloud Firestore** yang dipadukan dengan **Firebase Authentication** untuk menjamin data prospek bisnis setiap agensi aman, terenkripsi, dan terisolasi.
+Platform Data Scrafing menggunakan **Google Cloud Firestore** yang dipadukan dengan **Firebase Authentication** untuk menjamin data prospek bisnis setiap agensi aman, terenkripsi, dan terisolasi.
 
 ### Konfigurasi Cloud:
 * **GCP Project ID:** `lustrous-potion-vk6n5`
-* **Custom Database ID:** `ai-studio-nafsflowleadfind-b17ecebc-34bf-4df3-a390-e324d8de676d`
+* **Custom Database ID:** `ai-studio-datascrafingleadfind-b17ecebc-34bf-4df3-a390-e324d8de676d`
 * **App ID:** `1:812650633891:web:47f159f60293058ae7fd16`
 * **Auth Domain:** `lustrous-potion-vk6n5.firebaseapp.com`
 * **Storage Bucket:** `lustrous-potion-vk6n5.firebasestorage.app`

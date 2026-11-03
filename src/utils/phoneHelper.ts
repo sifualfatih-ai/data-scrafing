@@ -100,7 +100,7 @@ export function generateOutreachPitch(params: {
   agencyName?: string;
   senderName?: string;
 }): string {
-  const { businessName, category, location, rating, agencyName = 'NAFSFlow Studio', senderName = 'Tim Konsultan' } = params;
+  const { businessName, category, location, rating, agencyName = 'Data Scrafing Studio', senderName = 'Tim Konsultan' } = params;
 
   const ratingCompliment = rating && rating >= 4.0 
     ? `Kami perhatikan profil Google Maps ${businessName} mendapatkan rating luar biasa (${rating}⭐) dari pelanggan di ${location}.` 

@@ -1,7 +1,7 @@
 # DOKUMENTASI RESMI SISTEM SAAS
-# NAFSFLOW – B2B LOCAL BUSINESS LEAD INTELLIGENCE & OUTREACH CRM
+# DATA SCRAFING – B2B LOCAL BUSINESS LEAD INTELLIGENCE & OUTREACH CRM
 
-Selamat datang di pusat dokumentasi resmi platform **NAFSFlow SaaS**. Repositori dokumentasi ini mencakup seluruh aspek arsitektur, alur bisnis B2B, kebutuhan produk SaaS, skema database multi-tenant, dan panduan penggunaan platform.
+Selamat datang di pusat dokumentasi resmi platform **Data Scrafing SaaS**. Repositori dokumentasi ini mencakup seluruh aspek arsitektur, alur bisnis B2B, kebutuhan produk SaaS, skema database multi-tenant, dan panduan penggunaan platform.
 
 ---
 
@@ -21,7 +21,7 @@ Berikut adalah daftar modul dokumentasi sistem:
 
 ## 🚀 Ringkasan Singkat Platform SaaS
 
-* **Nama Platform:** NAFSFlow Lead Intelligence & Outreach CRM
+* **Nama Platform:** Data Scrafing - Lead Intelligence & Outreach CRM
 * **Model Produk:** B2B Web SaaS Platform (Software as a Service)
 * **Arsitektur:** React 19 SPA + Vite + Tailwind CSS v4 + Express Node.js Server
 * **Integrasi AI:** TeamoRouter Multi-Model Gateway (`https://api.teamorouter.com`) – mendukung 51+ model AI (Gemini, GPT, Claude, DeepSeek)

@@ -493,7 +493,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
                 type="text"
                 value={formData.agencyName}
                 onChange={(e) => setFormData({ ...formData, agencyName: e.target.value })}
-                placeholder="NAFSFlow Studio"
+                placeholder="Data Scrafing Agency"
                 className="w-full px-3 py-2 text-xs rounded-lg border border-slate-300 text-slate-800 focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-600"
               />
             </div>

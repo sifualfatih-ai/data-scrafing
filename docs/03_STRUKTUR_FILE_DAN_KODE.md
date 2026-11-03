@@ -1,5 +1,5 @@
 # STRUKTUR FILE DAN ARSITEKTUR KODE (SaaS B2B PLATFORM)
-## NAFSFLOW – B2B Local Business Lead Intelligence & Outreach CRM
+## DATA SCRAFING – B2B Local Business Lead Intelligence & Outreach CRM
 
 Dokumen ini membedah arsitektur sistem SaaS, hierarki direktori, tanggung jawab masing-masing file kode, alur data (*data flow*), serta dependensi pustaka yang digunakan dalam platform.
 
@@ -8,7 +8,7 @@ Dokumen ini membedah arsitektur sistem SaaS, hierarki direktori, tanggung jawab 
 ## 1. Peta Pohon Direktori (Directory Tree)
 
 ```
-nafsflow-saas-lead-finder/
+datascrafing-saas-lead-finder/
 ├── .env.example                     # Contoh variabel lingkungan server/klien
 ├── .gitignore                       # Berkas pengecualian Git (node_modules, dist, dsb.)
 ├── package.json                     # Manajemen dependensi pustaka Node.js & skrip build

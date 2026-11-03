@@ -435,7 +435,7 @@ export const FullDashboardView: React.FC<FullDashboardViewProps> = ({
                           {!isPremium && (
                             <button
                               type="button"
-                              onClick={() => onOpenUpgradeModal?.('Buka seluruh nomor telepon dan kirim pesan WhatsApp dengan NAFSFlow Premium seharga Rp 29.000!')}
+                              onClick={() => onOpenUpgradeModal?.('Buka seluruh nomor telepon dan kirim pesan WhatsApp dengan Data Scrafing Premium seharga Rp 29.000!')}
                               className="text-[10px] text-amber-700 bg-amber-50 hover:bg-amber-100 px-1.5 py-0.5 rounded border border-amber-300 font-bold inline-flex items-center gap-0.5"
                               title="Buka Nomor Lengkap (Rp 29rb)"
                             >

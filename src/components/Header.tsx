@@ -58,7 +58,7 @@ export const Header: React.FC<HeaderProps> = ({
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <span className="font-extrabold text-slate-900 text-lg tracking-tight">NAFSFlow</span>
+                <span className="font-extrabold text-slate-900 text-lg tracking-tight">Data Scrafing</span>
                 <span className="text-slate-500 font-semibold text-xs uppercase tracking-wider bg-slate-100 px-1.5 py-0.5 rounded">
                   SaaS B2B
                 </span>

@@ -1,5 +1,5 @@
 # WORKFLOW BISNIS & SALES FUNNEL
-## NAFSFLOW – Local Business Lead Finder & Opportunity Finder
+## DATA SCRAFING – Local Business Lead Finder & Opportunity Finder
 
 Dokumen ini menjelaskan proses bisnis end-to-end, model monetisasi, value proposition, dan alur konversi prospek dari pencarian data hingga closing jasa pembuatan website bagi pelaku UMKM dan bisnis lokal.
 
@@ -13,7 +13,7 @@ Di Indonesia, terdapat jutaan UMKM dan pelaku usaha lokal (bengkel mobil/motor, 
 3. Kehilangan potensi pelanggan B2B/B2C karena calon klien kelas atas selalu mencari validasi dan portofolio melalui mesin pencari Google.
 4. **Agensi web dev & freelancer sering kesulitan melakukan prospecting dingin (cold outreach)** karena data kontak campur aduk dan sulit membedakan mana bisnis yang benar-benar belum punya website.
 
-**Solusi NAFSFlow Lead Finder:**
+**Solusi Data Scrafing Lead Finder:**
 Menjadi mesin intelligence pencari prospek (lead generation engine) yang memfilter secara otomatis bisnis dengan status `NO WEBSITE` atau `SOCIAL MEDIA ONLY`, memvalidasi nomor kontak WhatsApp, dan menyediakan template penawaran instan.
 
 ---
@@ -88,7 +88,7 @@ Menjadi mesin intelligence pencari prospek (lead generation engine) yang memfilt
 
 ## 4. Strategi Pitching & Template Pesan WhatsApp
 
-Aplikasi NAFSFlow dilengkapi fitur generator template pesan WhatsApp yang dipersonalisasi berdasarkan nama bisnis dan lokasi.
+Aplikasi Data Scrafing dilengkapi fitur generator template pesan WhatsApp yang dipersonalisasi berdasarkan nama bisnis dan lokasi.
 
 ### Template 1: Pendekatan Solusi Reputasi & Kepercayaan
 ```text
@@ -121,7 +121,7 @@ Boleh saya kirimkan portofolio kami ke nomor ini? Terima kasih.
 
 ## 5. Proyeksi ROI (Return on Investment)
 
-Berikut estimasi konversi praktis dari penggunaan NAFSFlow:
+Berikut estimasi konversi praktis dari penggunaan Data Scrafing:
 * **Target Scraping per Hari**: 100 prospek lokal (kategori `NO WEBSITE`).
 * **WhatsApp Outreach per Hari**: 50 kontak terverifikasi.
 * **Respon Balasan (Reply Rate)**: 15% – 20% (7 - 10 prospek merespons).

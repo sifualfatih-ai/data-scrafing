@@ -87,7 +87,7 @@ export const UpgradeModal: React.FC<UpgradeModalProps> = ({
           <div className="relative z-10 space-y-1.5">
             <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full text-xs font-bold bg-amber-400/20 text-amber-300 border border-amber-400/40">
               <Crown className="w-3.5 h-3.5 text-amber-400" />
-              <span>NAFSFlow Premium Pass</span>
+              <span>Data Scrafing Premium Pass</span>
             </div>
             <h3 className="text-xl sm:text-2xl font-black tracking-tight text-white">
               Buka Seluruh Potensi Klien Agensi Anda
@@ -117,7 +117,7 @@ export const UpgradeModal: React.FC<UpgradeModalProps> = ({
               </div>
               <h4 className="text-xl font-black text-slate-900">Pembayaran Berhasil Dikonfirmasi!</h4>
               <p className="text-xs text-slate-600 max-w-sm mx-auto">
-                Selamat! Akun Anda kini berstatus <strong>NAFSFlow Premium Active (30 Hari)</strong>. Seluruh nomor telepon telah terbuka dan kuota 1.500 leads aktif.
+                Selamat! Akun Anda kini berstatus <strong>Data Scrafing Premium Active (30 Hari)</strong>. Seluruh nomor telepon telah terbuka dan kuota 1.500 leads aktif.
               </p>
             </div>
           ) : (

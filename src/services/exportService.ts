@@ -22,7 +22,7 @@ export function sanitizeCellValue(val: unknown): string {
 
 /**
  * Generates standardized filename based on location and current date:
- * e.g. nafsflow_leads_bandung_2026-11-02.xlsx
+ * e.g. datascrafing_leads_bandung_2026-11-02.xlsx
  */
 export function generateFilename(location: string, extension: 'xlsx' | 'csv'): string {
   const cleanLoc = (location || 'indonesia')
@@ -30,7 +30,7 @@ export function generateFilename(location: string, extension: 'xlsx' | 'csv'): s
     .trim()
     .replace(/[^a-z0-9]/g, '_');
   const dateStr = new Date().toISOString().split('T')[0];
-  return `nafsflow_leads_${cleanLoc}_${dateStr}.${extension}`;
+  return `datascrafing_leads_${cleanLoc}_${dateStr}.${extension}`;
 }
 
 /**

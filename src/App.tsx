@@ -40,9 +40,9 @@ import {
   loadUserSubscription,
 } from './services/firebase';
 
-const STORAGE_KEY_LEADS = 'nafsflow_leads_data_v2';
-const STORAGE_KEY_SETTINGS = 'nafsflow_app_settings_v2';
-const STORAGE_KEY_SUB = 'nafsflow_user_sub_v2';
+const STORAGE_KEY_LEADS = 'datascrafing_leads_data_v2';
+const STORAGE_KEY_SETTINGS = 'datascrafing_app_settings_v2';
+const STORAGE_KEY_SUB = 'datascrafing_user_sub_v2';
 
 const DEFAULT_SETTINGS: AppSettings = {
   teamorouterApiKey: '',
@@ -54,7 +54,7 @@ const DEFAULT_SETTINGS: AppSettings = {
   autoDetectWA: true,
   pitchTemplate: '',
   senderName: 'Tim Konsultan',
-  agencyName: 'NAFSFlow Web Studio',
+  agencyName: 'Data Scrafing Studio',
   websiteOfferPrice: 3500000,
 };
 
@@ -212,7 +212,7 @@ export default function App() {
       await saveUserSubscription(user.uid, newSub).catch(() => {});
     }
 
-    showNotification('🎉 Pembayaran QRIS Berhasil! Akun NAFSFlow Premium Rp 29.000 aktif selama 30 hari.');
+    showNotification('🎉 Pembayaran QRIS Berhasil! Akun Data Scrafing Premium Rp 29.000 aktif selama 30 hari.');
   };
 
   // Manual trigger to force re-sync with Firestore
