@@ -1,0 +1,6 @@
+{
+  "name": "NAFSFlow - B2B Lead Intelligence & Outreach CRM SaaS",
+  "description": "Platform SaaS B2B untuk mencari prospek UMKM & bisnis lokal tanpa website resmi, memverifikasi status domain live, kontak WhatsApp, serta integrasi Cloud CRM.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

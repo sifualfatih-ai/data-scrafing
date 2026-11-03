@@ -1,0 +1,33 @@
+{
+  "$schema": "https://raw.githubusercontent.com/firebase/firebase-tools/master/schema/firestore-blueprint.json",
+  "version": "1.0.0",
+  "collections": {
+    "leads": {
+      "description": "Scraped local business leads and website audit status",
+      "fields": {
+        "id": { "type": "string", "description": "Unique business lead identifier" },
+        "name": { "type": "string", "description": "Name of the local business or company" },
+        "category": { "type": "string", "description": "Business sector or specialty" },
+        "location": { "type": "string", "description": "Physical address, street, or city" },
+        "phone": { "type": "string", "description": "Contact telephone or verified WhatsApp number" },
+        "hasWhatsapp": { "type": "boolean", "description": "Whether WhatsApp contact is verified" },
+        "websiteStatus": { "type": "string", "description": "Website availability: NO WEBSITE, HAS WEBSITE, SOCIAL MEDIA ONLY, UNVERIFIED" },
+        "websiteUrl": { "type": "string", "description": "Identified official website address or empty" },
+        "googleMapsUrl": { "type": "string", "description": "Google Maps search or place URL" },
+        "source": { "type": "string", "description": "Data provider or source reference" },
+        "scrapedAt": { "type": "string", "description": "Formatted timestamp of collection" },
+        "createdAt": { "type": "timestamp", "description": "Server creation timestamp" }
+      },
+      "indexes": []
+    },
+    "app_settings": {
+      "description": "Application settings and defaults",
+      "fields": {
+        "teamorouterModel": { "type": "string", "description": "Configured TeamoRouter AI model" },
+        "teamorouterEndpoint": { "type": "string", "description": "Base endpoint URL" },
+        "updatedAt": { "type": "timestamp", "description": "Last update timestamp" }
+      },
+      "indexes": []
+    }
+  }
+}

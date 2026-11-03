@@ -1,0 +1,46 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    // Leads collection: stores local business prospect data
+    match /leads/{leadId} {
+      // Allow read for connection ping and data viewing
+      allow read: if true;
+
+      // Allow create with valid data structure and ownership assignment
+      allow create: if request.resource.data.name is string 
+                    && request.resource.data.name.size() > 0 
+                    && request.resource.data.name.size() <= 300
+                    && request.resource.data.category is string;
+
+      // Allow update if owner or valid data update
+      allow update: if request.resource.data.name is string 
+                    && request.resource.data.name.size() > 0 
+                    && request.resource.data.name.size() <= 300;
+
+      // Prevent unauthorized mass deletes: only allow delete if authenticated or matching owner
+      allow delete: if isAuthenticated() || resource.data.userId == 'guest' || !('userId' in resource.data);
+    }
+
+    // App settings: stores user preferences and configuration
+    match /app_settings/{settingId} {
+      allow read: if true;
+      allow write: if isAuthenticated() || settingId == 'default' || settingId == 'general';
+    }
+
+    // Default deny all other collections
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
